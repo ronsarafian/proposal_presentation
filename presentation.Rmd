@@ -79,7 +79,7 @@ where:
 
 
 
-## How to generate PM data (1):
+## How to generate PM data:
 
 ### <span style="color:darkred"> **Interpolation** methods </span> 
 
@@ -98,7 +98,7 @@ More accurate, but **Temporaly limited**
 
 
 
-## How to generate PM data (2):
+## How to generate PM data:
 
 ### <span style="color:darkred"> Using external **Spatio-temporal** information </span>
 
@@ -123,8 +123,8 @@ Advantages: **High accuracy, Unlimited coverage (space and time)**
 ### Epidemiological Goals
  
  - **PM predictions** are essentially predictors in an **Epidemiological study**. Should this affect:
-    + **Performance evaluation**? 
-    + **Learning algorithm**?
+    + **Performance evaluation**
+    + **Learning algorithm**
 
 ### Spatio-temporal data structure
 
@@ -144,18 +144,13 @@ Advantages: **High accuracy, Unlimited coverage (space and time)**
 
 ### 1. Investigate the Geographic model preformance estimation procedure
 
- - Recognize the **epidemiological study goals**
- - Avoid **overfitting**
+<br />
 
 ### 2. Improve prediction performance by modeling the dependence structure
 
- - Use **Generalized least squares (GLS)**
- - Learn the errors **Covariance structure**
+<br />
 
 ### 3. Fit the Geographic model when the data is very big
-
- - Reduce the problem of model fitting by **applying GLS**
- - Employ **sparse representations**, **memory efficiency** and **parallel computing** tools
 
 
 
